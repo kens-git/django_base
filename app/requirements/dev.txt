@@ -1,4 +1,4 @@
--r requirements.txt
+-r base.txt
 
 pre-commit~=3.0.0
 django-debug-toolbar~=3.8.1

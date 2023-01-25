@@ -13,7 +13,8 @@ RUN apk update \
 
 # install dependencies
 RUN pip install --upgrade pip
-COPY ./requirements.txt .
+COPY ./requirements/base.txt .
+COPY ./requirements/dev.txt ./requirements.txt
 RUN pip install -r requirements.txt
 
 # copy entrypoint.sh
