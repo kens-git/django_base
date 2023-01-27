@@ -4,7 +4,7 @@
 
 <h1>Running Locally</h1>
 <code>docker compose -f docker-compose.yml up --build</code>
-<h1>Deployment</h1>
+<h1>Deployment to Staging or Production</h1>
 <p>The process is the same for staging and production, with the only difference being
 that the production environment is given a real SSL certificate.</p>
 <h2>Update Environment Variables:</h2>
