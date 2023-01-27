@@ -22,4 +22,4 @@ scp -i $host_user_key_path \
 scp -i $host_user_key_path \
     -r {app,nginx} $host_username@$server_host:${user_path}
 ssh -i $host_user_key_path $host_username@$server_host \
-    "docker compose -f docker-compose.${host_env}.yml up --build"
+    "docker compose -f docker-compose.${host_env}.yml up -d --build"
